@@ -1,4 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'Demo'
+mainClassName = 'com.justintullgren.spice.demo.Demo'
+
+dependencies {
+    implementation project(':lib')
+}
